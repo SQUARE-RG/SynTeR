@@ -6,13 +6,14 @@
 
 import time, random, json, os
 from langsmith import Client
+from utils.configs import REPO_BASE
 from utils.types import UpdateInfo, RetCtx
 from utils.multilspy import SyncLanguageServer
 from utils.multilspy.multilspy_config import MultilspyConfig
 from utils.multilspy.multilspy_logger import MultilspyLogger
 from utils.multilspy.multilspy_types import Position
 from utils.multilspy.multilspy_exceptions import MultilspyException
-from utils.gitter import UpdateRepo
+from utils.gitter import UpdateRepo, setup_repo
 from utils.reranker import rerank_with_query, rerank_usages_with_query
 from utils.helper import read_examples, expand_pos_list_fmtf
 from utils.parser import (
@@ -443,7 +444,9 @@ def retrieve_context(
     args: clean_tests: ignore other test codes when extracting contexts if True
           save_cache: save the intermediate values to cache if True
     """
-    update_repo = UpdateRepo(update_info.repo_root, update_info.commit_id)
+    # update_repo = UpdateRepo(update_info.repo_root, update_info.commit_id)
+    repo_name = os.path.relpath(update_info.repo_root, REPO_BASE)
+    update_repo = setup_repo(repo_name, update_info.commit_id, do_clone=True)
 
     repo_root = update_info.repo_root
     lsp = SyncLanguageServer.create(lsp_config, lsp_logger, repo_root)
