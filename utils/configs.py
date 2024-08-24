@@ -1,8 +1,8 @@
-# The path where you save all the repos (create the folder first if not exists)
-REPO_BASE = "xxxxxxx/Projects/SynPTCEvo4J/repos"
+# The absolute path where you save all the repos (create the folder first if not exists)
+REPO_BASE = "/xxxxxxx/SynPTCEvo4J/repos"
 
-# The path of your reranker
-RERANKER_MODEL_PATH = "xxxxxxx/Projects/codeLLM/Reranker/bge-reranker-v2-m3"
+# The absolute path of your reranker
+RERANKER_MODEL_PATH = "/xxxxxxx/bge-reranker-v2-m3"
 
 # LLM Inference API - enter your API key here
 # If you use other LLMs, custom your API setting (base_url and model) in utils/llm.py

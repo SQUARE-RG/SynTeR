@@ -43,7 +43,11 @@ Before running the scripts, make sure the environment has been built correctly f
     pip install -r requirements.txt
     ```
 
-- Install [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) locally. Check your installation by running the following command in your shell:
+- Install [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) locally. 
+  ```bash
+  sudo apt install clang-format
+  ```
+  Check your installation by running the following command in your shell:
   ```bash
   clang-format --version
   ```
