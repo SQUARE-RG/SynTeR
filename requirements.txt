@@ -1,0 +1,12 @@
+langchain==0.2.14
+langchain_openai==0.1.22
+tree_sitter==0.22.3
+tree_sitter_java==0.21.0
+GitPython==3.1.43
+FlagEmbedding==1.2.9
+codebleu==0.7.0
+
+# jupyter notebook
+notebook
+git+https://github.com/microsoft/multilspy.git@main
+

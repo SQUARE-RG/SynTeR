@@ -1,0 +1,7 @@
+/utils/multilspy/language_servers/*/static/
+
+/tools/parser/build/
+
+__pycache__/
+*.py[cod]
+*$py.class

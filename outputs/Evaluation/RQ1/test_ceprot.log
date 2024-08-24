@@ -1,0 +1,363 @@
+2024-05-21 14:37:09,749 - INFO - run_evaluate.py -   #########CEPROT#########
+2024-05-21 14:37:09,751 - INFO - run_evaluate.py -   Start evaluating 136 items in outputs/CEPROT/test_ceprot.json
+2024-05-21 14:37:09,751 - INFO - run_evaluate.py -   ==========[Accuracy]==========
+2024-05-21 14:37:09,751 - INFO - run_evaluate.py -   12: Accurately correct
+2024-05-21 14:37:09,752 - INFO - run_evaluate.py -   23: Accurately correct
+2024-05-21 14:37:09,752 - INFO - run_evaluate.py -   51: Accurately correct
+2024-05-21 14:37:09,752 - INFO - run_evaluate.py -   67: Accurately correct
+2024-05-21 14:37:09,752 - INFO - run_evaluate.py -   84: Accurately correct
+2024-05-21 14:37:09,752 - INFO - run_evaluate.py -   89: Accurately correct
+2024-05-21 14:37:09,762 - INFO - run_evaluate.py -   Accuracy: 6 / 136 = 0.04411764705882353
+2024-05-21 14:37:09,762 - INFO - run_evaluate.py -   ==========[Accuracy]==========
+2024-05-21 14:37:09,762 - INFO - run_evaluate.py -   ==========[CodeBLEU]==========
+2024-05-21 14:37:10,336 - INFO - run_evaluate.py -   0: 0.52
+2024-05-21 14:37:10,347 - INFO - run_evaluate.py -   1: 0.56
+2024-05-21 14:37:10,357 - INFO - run_evaluate.py -   2: 0.82
+2024-05-21 14:37:10,366 - INFO - run_evaluate.py -   3: 0.69
+2024-05-21 14:37:10,372 - INFO - run_evaluate.py -   4: 0.91
+2024-05-21 14:37:10,385 - INFO - run_evaluate.py -   5: 0.84
+2024-05-21 14:37:10,394 - INFO - run_evaluate.py -   6: 0.49
+2024-05-21 14:37:10,399 - INFO - run_evaluate.py -   7: 0.82
+2024-05-21 14:37:10,405 - INFO - run_evaluate.py -   8: 0.65
+2024-05-21 14:37:10,409 - INFO - run_evaluate.py -   9: 0.32
+2024-05-21 14:37:10,416 - INFO - run_evaluate.py -   10: 0.86
+2024-05-21 14:37:10,425 - INFO - run_evaluate.py -   11: 0.67
+2024-05-21 14:37:10,427 - INFO - run_evaluate.py -   12: 1.00
+2024-05-21 14:37:10,431 - INFO - run_evaluate.py -   13: 0.89
+2024-05-21 14:37:10,435 - INFO - run_evaluate.py -   14: 0.54
+2024-05-21 14:37:10,437 - INFO - run_evaluate.py -   15: 0.61
+2024-05-21 14:37:10,446 - INFO - run_evaluate.py -   16: 0.92
+2024-05-21 14:37:10,455 - INFO - run_evaluate.py -   17: 0.75
+2024-05-21 14:37:10,486 - INFO - run_evaluate.py -   18: 0.69
+2024-05-21 14:37:10,490 - INFO - run_evaluate.py -   19: 0.56
+2024-05-21 14:37:10,496 - INFO - run_evaluate.py -   20: 0.59
+2024-05-21 14:37:10,503 - INFO - run_evaluate.py -   21: 0.96
+2024-05-21 14:37:10,509 - INFO - run_evaluate.py -   22: 0.86
+2024-05-21 14:37:10,516 - INFO - run_evaluate.py -   23: 1.00
+2024-05-21 14:37:10,520 - INFO - run_evaluate.py -   24: 0.88
+2024-05-21 14:37:10,525 - INFO - run_evaluate.py -   25: 0.91
+2024-05-21 14:37:10,531 - INFO - run_evaluate.py -   26: 0.93
+2024-05-21 14:37:10,544 - INFO - run_evaluate.py -   27: 0.69
+2024-05-21 14:37:10,547 - INFO - run_evaluate.py -   28: 0.55
+2024-05-21 14:37:10,552 - INFO - run_evaluate.py -   29: 0.79
+2024-05-21 14:37:10,558 - INFO - run_evaluate.py -   30: 0.53
+2024-05-21 14:37:10,564 - INFO - run_evaluate.py -   31: 0.79
+2024-05-21 14:37:10,567 - INFO - run_evaluate.py -   32: 0.69
+2024-05-21 14:37:10,568 - INFO - run_evaluate.py -   33: 0.61
+2024-05-21 14:37:10,586 - INFO - run_evaluate.py -   34: 0.79
+2024-05-21 14:37:10,590 - INFO - run_evaluate.py -   35: 0.42
+2024-05-21 14:37:10,594 - INFO - run_evaluate.py -   36: 0.83
+2024-05-21 14:37:10,597 - INFO - run_evaluate.py -   37: 0.77
+2024-05-21 14:37:10,600 - INFO - run_evaluate.py -   38: 0.69
+2024-05-21 14:37:10,604 - INFO - run_evaluate.py -   39: 0.65
+2024-05-21 14:37:10,610 - INFO - run_evaluate.py -   40: 0.68
+2024-05-21 14:37:10,612 - INFO - run_evaluate.py -   41: 0.87
+2024-05-21 14:37:10,613 - INFO - run_evaluate.py -   42: 0.71
+2024-05-21 14:37:10,618 - INFO - run_evaluate.py -   43: 0.79
+2024-05-21 14:37:10,626 - INFO - run_evaluate.py -   44: 0.57
+2024-05-21 14:37:10,627 - INFO - run_evaluate.py -   45: 0.40
+2024-05-21 14:37:10,631 - INFO - run_evaluate.py -   46: 0.74
+2024-05-21 14:37:10,635 - INFO - run_evaluate.py -   47: 0.61
+2024-05-21 14:37:10,642 - INFO - run_evaluate.py -   48: 0.76
+2024-05-21 14:37:10,643 - INFO - run_evaluate.py -   49: 0.43
+2024-05-21 14:37:10,645 - INFO - run_evaluate.py -   50: 0.45
+2024-05-21 14:37:10,648 - INFO - run_evaluate.py -   51: 1.00
+2024-05-21 14:37:10,653 - INFO - run_evaluate.py -   52: 0.86
+2024-05-21 14:37:10,656 - INFO - run_evaluate.py -   53: 0.85
+2024-05-21 14:37:10,659 - INFO - run_evaluate.py -   54: 0.47
+2024-05-21 14:37:10,662 - INFO - run_evaluate.py -   55: 0.82
+2024-05-21 14:37:10,666 - INFO - run_evaluate.py -   56: 0.77
+2024-05-21 14:37:10,670 - INFO - run_evaluate.py -   57: 0.84
+2024-05-21 14:37:10,675 - INFO - run_evaluate.py -   58: 0.84
+2024-05-21 14:37:10,679 - INFO - run_evaluate.py -   59: 0.89
+2024-05-21 14:37:10,686 - INFO - run_evaluate.py -   60: 0.76
+2024-05-21 14:37:10,690 - INFO - run_evaluate.py -   61: 0.60
+2024-05-21 14:37:10,694 - INFO - run_evaluate.py -   62: 0.83
+2024-05-21 14:37:10,701 - INFO - run_evaluate.py -   63: 0.78
+2024-05-21 14:37:10,705 - INFO - run_evaluate.py -   64: 0.74
+2024-05-21 14:37:10,708 - INFO - run_evaluate.py -   65: 0.93
+2024-05-21 14:37:10,711 - INFO - run_evaluate.py -   66: 0.83
+2024-05-21 14:37:10,714 - INFO - run_evaluate.py -   67: 1.00
+2024-05-21 14:37:10,716 - INFO - run_evaluate.py -   68: 0.92
+2024-05-21 14:37:10,721 - INFO - run_evaluate.py -   69: 0.50
+2024-05-21 14:37:10,724 - INFO - run_evaluate.py -   70: 0.96
+2024-05-21 14:37:10,728 - INFO - run_evaluate.py -   71: 0.71
+2024-05-21 14:37:10,731 - INFO - run_evaluate.py -   72: 0.81
+2024-05-21 14:37:10,738 - INFO - run_evaluate.py -   73: 0.89
+2024-05-21 14:37:10,741 - INFO - run_evaluate.py -   74: 0.63
+2024-05-21 14:37:10,749 - INFO - run_evaluate.py -   75: 0.55
+2024-05-21 14:37:10,757 - INFO - run_evaluate.py -   76: 0.85
+2024-05-21 14:37:10,760 - INFO - run_evaluate.py -   77: 0.77
+2024-05-21 14:37:10,764 - INFO - run_evaluate.py -   78: 0.76
+2024-05-21 14:37:10,768 - INFO - run_evaluate.py -   79: 0.95
+2024-05-21 14:37:10,773 - INFO - run_evaluate.py -   80: 0.72
+2024-05-21 14:37:10,777 - INFO - run_evaluate.py -   81: 0.82
+2024-05-21 14:37:10,784 - INFO - run_evaluate.py -   82: 0.71
+2024-05-21 14:37:10,793 - INFO - run_evaluate.py -   83: 0.78
+2024-05-21 14:37:10,795 - INFO - run_evaluate.py -   84: 1.00
+2024-05-21 14:37:10,800 - INFO - run_evaluate.py -   85: 0.78
+2024-05-21 14:37:10,803 - INFO - run_evaluate.py -   86: 0.94
+2024-05-21 14:37:10,806 - INFO - run_evaluate.py -   87: 0.60
+2024-05-21 14:37:10,809 - INFO - run_evaluate.py -   88: 0.84
+2024-05-21 14:37:10,812 - INFO - run_evaluate.py -   89: 1.00
+2024-05-21 14:37:10,814 - INFO - run_evaluate.py -   90: 0.83
+2024-05-21 14:37:10,817 - INFO - run_evaluate.py -   91: 0.93
+2024-05-21 14:37:10,822 - INFO - run_evaluate.py -   92: 0.57
+2024-05-21 14:37:10,825 - INFO - run_evaluate.py -   93: 0.66
+2024-05-21 14:37:10,828 - INFO - run_evaluate.py -   94: 0.72
+2024-05-21 14:37:10,830 - INFO - run_evaluate.py -   95: 0.72
+2024-05-21 14:37:10,833 - INFO - run_evaluate.py -   96: 0.85
+2024-05-21 14:37:10,835 - INFO - run_evaluate.py -   97: 0.73
+2024-05-21 14:37:10,838 - INFO - run_evaluate.py -   98: 0.41
+2024-05-21 14:37:10,848 - INFO - run_evaluate.py -   99: 0.44
+2024-05-21 14:37:10,861 - INFO - run_evaluate.py -   100: 0.63
+2024-05-21 14:37:10,874 - INFO - run_evaluate.py -   101: 0.77
+2024-05-21 14:37:10,878 - INFO - run_evaluate.py -   102: 0.74
+2024-05-21 14:37:10,880 - INFO - run_evaluate.py -   103: 0.90
+2024-05-21 14:37:10,895 - INFO - run_evaluate.py -   104: 0.75
+2024-05-21 14:37:10,911 - INFO - run_evaluate.py -   105: 0.78
+2024-05-21 14:37:10,928 - INFO - run_evaluate.py -   106: 0.76
+2024-05-21 14:37:10,930 - INFO - run_evaluate.py -   107: 0.90
+2024-05-21 14:37:10,931 - INFO - run_evaluate.py -   108: 0.61
+2024-05-21 14:37:10,933 - INFO - run_evaluate.py -   109: 0.87
+2024-05-21 14:37:10,937 - INFO - run_evaluate.py -   110: 0.84
+2024-05-21 14:37:10,940 - INFO - run_evaluate.py -   111: 0.77
+2024-05-21 14:37:10,943 - INFO - run_evaluate.py -   112: 0.67
+2024-05-21 14:37:10,956 - INFO - run_evaluate.py -   113: 0.72
+2024-05-21 14:37:10,960 - INFO - run_evaluate.py -   114: 0.56
+2024-05-21 14:37:10,962 - INFO - run_evaluate.py -   115: 0.40
+2024-05-21 14:37:10,964 - INFO - run_evaluate.py -   116: 0.44
+2024-05-21 14:37:10,965 - INFO - run_evaluate.py -   117: 0.44
+2024-05-21 14:37:10,967 - INFO - run_evaluate.py -   118: 0.31
+2024-05-21 14:37:10,972 - INFO - run_evaluate.py -   119: 0.83
+2024-05-21 14:37:10,977 - INFO - run_evaluate.py -   120: 0.81
+2024-05-21 14:37:10,982 - INFO - run_evaluate.py -   121: 0.84
+2024-05-21 14:37:10,987 - INFO - run_evaluate.py -   122: 0.82
+2024-05-21 14:37:10,991 - INFO - run_evaluate.py -   123: 0.90
+2024-05-21 14:37:10,995 - INFO - run_evaluate.py -   124: 0.53
+2024-05-21 14:37:11,000 - INFO - run_evaluate.py -   125: 0.70
+2024-05-21 14:37:11,005 - INFO - run_evaluate.py -   126: 0.70
+2024-05-21 14:37:11,009 - INFO - run_evaluate.py -   127: 0.71
+2024-05-21 14:37:11,014 - INFO - run_evaluate.py -   128: 0.65
+2024-05-21 14:37:11,018 - INFO - run_evaluate.py -   129: 0.64
+2024-05-21 14:37:11,021 - INFO - run_evaluate.py -   130: 0.83
+2024-05-21 14:37:11,025 - INFO - run_evaluate.py -   131: 0.81
+2024-05-21 14:37:11,030 - INFO - run_evaluate.py -   132: 0.73
+2024-05-21 14:37:11,034 - INFO - run_evaluate.py -   133: 0.72
+2024-05-21 14:37:11,039 - INFO - run_evaluate.py -   134: 0.80
+2024-05-21 14:37:11,044 - INFO - run_evaluate.py -   135: 0.79
+2024-05-21 14:37:11,044 - INFO - run_evaluate.py -   Average codebleu: 0.7342647291966964
+2024-05-21 14:37:11,044 - INFO - run_evaluate.py -   ==========[CodeBLEU]==========
+2024-05-21 14:37:11,044 - INFO - run_evaluate.py -   ==========[DiffBLEU]==========
+2024-05-21 14:37:11,622 - INFO - run_evaluate.py -   0: DiffBLEU: 0.05.
+2024-05-21 14:37:11,805 - INFO - run_evaluate.py -   1: DiffBLEU: 0.00.
+2024-05-21 14:37:11,978 - INFO - run_evaluate.py -   2: DiffBLEU: 0.44.
+2024-05-21 14:37:12,149 - INFO - run_evaluate.py -   3: DiffBLEU: 0.16.
+2024-05-21 14:37:12,317 - INFO - run_evaluate.py -   4: DiffBLEU: 0.40.
+2024-05-21 14:37:12,492 - INFO - run_evaluate.py -   5: DiffBLEU: 0.00.
+2024-05-21 14:37:12,665 - INFO - run_evaluate.py -   6: DiffBLEU: 0.01.
+2024-05-21 14:37:12,834 - INFO - run_evaluate.py -   7: DiffBLEU: 0.15.
+2024-05-21 14:37:13,004 - INFO - run_evaluate.py -   8: DiffBLEU: 0.04.
+2024-05-21 14:37:13,171 - INFO - run_evaluate.py -   9: DiffBLEU: 0.37.
+2024-05-21 14:37:13,342 - INFO - run_evaluate.py -   10: DiffBLEU: 0.78.
+2024-05-21 14:37:13,514 - INFO - run_evaluate.py -   11: DiffBLEU: 0.00.
+2024-05-21 14:37:13,682 - INFO - run_evaluate.py -   12: DiffBLEU: 1.00.
+2024-05-21 14:37:13,849 - INFO - run_evaluate.py -   13: DiffBLEU: 0.58.
+2024-05-21 14:37:14,016 - INFO - run_evaluate.py -   14: DiffBLEU: 0.00.
+2024-05-21 14:37:14,183 - INFO - run_evaluate.py -   15: DiffBLEU: 0.14.
+2024-05-21 14:37:14,352 - INFO - run_evaluate.py -   16: DiffBLEU: 1.00.
+2024-05-21 14:37:14,523 - INFO - run_evaluate.py -   17: DiffBLEU: 1.00.
+2024-05-21 14:37:14,698 - INFO - run_evaluate.py -   18: DiffBLEU: 0.00.
+2024-05-21 14:37:14,865 - INFO - run_evaluate.py -   19: DiffBLEU: 0.28.
+2024-05-21 14:37:15,019 - INFO - run_evaluate.py -   20: DiffBLEU: 0.00.
+2024-05-21 14:37:15,183 - INFO - run_evaluate.py -   21: DiffBLEU: 1.00.
+2024-05-21 14:37:15,337 - INFO - run_evaluate.py -   22: DiffBLEU: 0.10.
+2024-05-21 14:37:15,482 - INFO - run_evaluate.py -   23: DiffBLEU: 1.00.
+2024-05-21 14:37:15,652 - INFO - run_evaluate.py -   24: DiffBLEU: 0.18.
+2024-05-21 14:37:15,820 - INFO - run_evaluate.py -   25: DiffBLEU: 0.00.
+2024-05-21 14:37:15,977 - INFO - run_evaluate.py -   26: DiffBLEU: 1.00.
+2024-05-21 14:37:16,108 - INFO - run_evaluate.py -   27: DiffBLEU: 0.18.
+2024-05-21 14:37:16,244 - INFO - run_evaluate.py -   28: DiffBLEU: 0.17.
+2024-05-21 14:37:16,357 - INFO - run_evaluate.py -   29: DiffBLEU: 0.07.
+2024-05-21 14:37:16,527 - INFO - run_evaluate.py -   30: DiffBLEU: 0.04.
+2024-05-21 14:37:16,671 - INFO - run_evaluate.py -   31: DiffBLEU: 0.05.
+2024-05-21 14:37:16,795 - INFO - run_evaluate.py -   32: DiffBLEU: 0.10.
+2024-05-21 14:37:16,912 - INFO - run_evaluate.py -   33: DiffBLEU: 0.00.
+2024-05-21 14:37:17,082 - INFO - run_evaluate.py -   34: DiffBLEU: 0.04.
+2024-05-21 14:37:17,223 - INFO - run_evaluate.py -   35: DiffBLEU: 0.00.
+2024-05-21 14:37:17,350 - INFO - run_evaluate.py -   36: DiffBLEU: 0.55.
+2024-05-21 14:37:17,489 - INFO - run_evaluate.py -   37: DiffBLEU: 0.00.
+2024-05-21 14:37:17,633 - INFO - run_evaluate.py -   38: DiffBLEU: 0.00.
+2024-05-21 14:37:17,735 - INFO - run_evaluate.py -   39: DiffBLEU: 0.02.
+2024-05-21 14:37:17,844 - INFO - run_evaluate.py -   40: DiffBLEU: 0.29.
+2024-05-21 14:37:17,944 - INFO - run_evaluate.py -   41: DiffBLEU: 0.40.
+2024-05-21 14:37:18,084 - INFO - run_evaluate.py -   42: DiffBLEU: 0.64.
+2024-05-21 14:37:18,244 - INFO - run_evaluate.py -   43: DiffBLEU: 0.02.
+2024-05-21 14:37:18,405 - INFO - run_evaluate.py -   44: DiffBLEU: 0.00.
+2024-05-21 14:37:18,577 - INFO - run_evaluate.py -   45: DiffBLEU: 0.00.
+2024-05-21 14:37:18,722 - INFO - run_evaluate.py -   46: DiffBLEU: 0.81.
+2024-05-21 14:37:18,844 - INFO - run_evaluate.py -   47: DiffBLEU: 0.04.
+2024-05-21 14:37:19,005 - INFO - run_evaluate.py -   48: DiffBLEU: 0.02.
+2024-05-21 14:37:19,147 - INFO - run_evaluate.py -   49: DiffBLEU: 0.21.
+2024-05-21 14:37:19,269 - INFO - run_evaluate.py -   50: DiffBLEU: 0.14.
+2024-05-21 14:37:19,438 - INFO - run_evaluate.py -   51: DiffBLEU: 1.00.
+2024-05-21 14:37:19,587 - INFO - run_evaluate.py -   52: DiffBLEU: 0.00.
+2024-05-21 14:37:19,711 - INFO - run_evaluate.py -   53: DiffBLEU: 1.00.
+2024-05-21 14:37:19,868 - INFO - run_evaluate.py -   54: DiffBLEU: 0.00.
+2024-05-21 14:37:19,985 - INFO - run_evaluate.py -   55: DiffBLEU: 0.00.
+2024-05-21 14:37:20,133 - INFO - run_evaluate.py -   56: DiffBLEU: 0.57.
+2024-05-21 14:37:20,306 - INFO - run_evaluate.py -   57: DiffBLEU: 0.22.
+2024-05-21 14:37:20,453 - INFO - run_evaluate.py -   58: DiffBLEU: 0.01.
+2024-05-21 14:37:20,559 - INFO - run_evaluate.py -   59: DiffBLEU: 0.29.
+2024-05-21 14:37:20,699 - INFO - run_evaluate.py -   60: DiffBLEU: 0.00.
+2024-05-21 14:37:20,845 - INFO - run_evaluate.py -   61: DiffBLEU: 0.02.
+2024-05-21 14:37:21,021 - INFO - run_evaluate.py -   62: DiffBLEU: 0.73.
+2024-05-21 14:37:21,176 - INFO - run_evaluate.py -   63: DiffBLEU: 0.76.
+2024-05-21 14:37:21,355 - INFO - run_evaluate.py -   64: DiffBLEU: 0.76.
+2024-05-21 14:37:21,510 - INFO - run_evaluate.py -   65: DiffBLEU: 0.00.
+2024-05-21 14:37:21,629 - INFO - run_evaluate.py -   66: DiffBLEU: 0.07.
+2024-05-21 14:37:21,774 - INFO - run_evaluate.py -   67: DiffBLEU: 1.00.
+2024-05-21 14:37:21,896 - INFO - run_evaluate.py -   68: DiffBLEU: 0.26.
+2024-05-21 14:37:22,058 - INFO - run_evaluate.py -   69: DiffBLEU: 0.08.
+2024-05-21 14:37:22,191 - INFO - run_evaluate.py -   70: DiffBLEU: 1.00.
+2024-05-21 14:37:22,360 - INFO - run_evaluate.py -   71: DiffBLEU: 0.16.
+2024-05-21 14:37:22,504 - INFO - run_evaluate.py -   72: DiffBLEU: 0.52.
+2024-05-21 14:37:22,623 - INFO - run_evaluate.py -   73: DiffBLEU: 0.68.
+2024-05-21 14:37:22,764 - INFO - run_evaluate.py -   74: DiffBLEU: 0.08.
+2024-05-21 14:37:22,877 - INFO - run_evaluate.py -   75: DiffBLEU: 0.00.
+2024-05-21 14:37:23,004 - INFO - run_evaluate.py -   76: DiffBLEU: 0.17.
+2024-05-21 14:37:23,132 - INFO - run_evaluate.py -   77: DiffBLEU: 0.41.
+2024-05-21 14:37:23,272 - INFO - run_evaluate.py -   78: DiffBLEU: 0.33.
+2024-05-21 14:37:23,412 - INFO - run_evaluate.py -   79: DiffBLEU: 0.74.
+2024-05-21 14:37:23,556 - INFO - run_evaluate.py -   80: DiffBLEU: 0.18.
+2024-05-21 14:37:24,612 - INFO - run_evaluate.py -   81: DiffBLEU: 0.00.
+2024-05-21 14:37:24,730 - INFO - run_evaluate.py -   82: DiffBLEU: 0.20.
+2024-05-21 14:37:24,851 - INFO - run_evaluate.py -   83: DiffBLEU: 0.00.
+2024-05-21 14:37:24,967 - INFO - run_evaluate.py -   84: DiffBLEU: 1.00.
+2024-05-21 14:37:25,080 - INFO - run_evaluate.py -   85: DiffBLEU: 0.02.
+2024-05-21 14:37:25,187 - INFO - run_evaluate.py -   86: DiffBLEU: 0.00.
+2024-05-21 14:37:25,305 - INFO - run_evaluate.py -   87: DiffBLEU: 0.22.
+2024-05-21 14:37:25,420 - INFO - run_evaluate.py -   88: DiffBLEU: 0.40.
+2024-05-21 14:37:25,535 - INFO - run_evaluate.py -   89: DiffBLEU: 1.00.
+2024-05-21 14:37:25,645 - INFO - run_evaluate.py -   90: DiffBLEU: 0.06.
+2024-05-21 14:37:25,765 - INFO - run_evaluate.py -   91: DiffBLEU: 0.59.
+2024-05-21 14:37:25,891 - INFO - run_evaluate.py -   92: DiffBLEU: 0.01.
+2024-05-21 14:37:25,999 - INFO - run_evaluate.py -   93: DiffBLEU: 0.02.
+2024-05-21 14:37:26,115 - INFO - run_evaluate.py -   94: DiffBLEU: 0.00.
+2024-05-21 14:37:26,228 - INFO - run_evaluate.py -   95: DiffBLEU: 0.00.
+2024-05-21 14:37:26,343 - INFO - run_evaluate.py -   96: DiffBLEU: 0.67.
+2024-05-21 14:37:26,451 - INFO - run_evaluate.py -   97: DiffBLEU: 0.02.
+2024-05-21 14:37:26,573 - INFO - run_evaluate.py -   98: DiffBLEU: 0.19.
+2024-05-21 14:37:26,691 - INFO - run_evaluate.py -   99: DiffBLEU: 0.01.
+2024-05-21 14:37:26,819 - INFO - run_evaluate.py -   100: DiffBLEU: 0.13.
+2024-05-21 14:37:26,945 - INFO - run_evaluate.py -   101: DiffBLEU: 0.00.
+2024-05-21 14:37:27,054 - INFO - run_evaluate.py -   102: DiffBLEU: 0.25.
+2024-05-21 14:37:27,166 - INFO - run_evaluate.py -   103: DiffBLEU: 1.00.
+2024-05-21 14:37:27,285 - INFO - run_evaluate.py -   104: DiffBLEU: 0.03.
+2024-05-21 14:37:27,414 - INFO - run_evaluate.py -   105: DiffBLEU: 0.04.
+2024-05-21 14:37:27,548 - INFO - run_evaluate.py -   106: DiffBLEU: 0.03.
+2024-05-21 14:37:27,709 - INFO - run_evaluate.py -   107: DiffBLEU: 1.00.
+2024-05-21 14:37:27,877 - INFO - run_evaluate.py -   108: DiffBLEU: 1.00.
+2024-05-21 14:37:28,046 - INFO - run_evaluate.py -   109: DiffBLEU: 0.57.
+2024-05-21 14:37:28,214 - INFO - run_evaluate.py -   110: DiffBLEU: 0.37.
+2024-05-21 14:37:28,381 - INFO - run_evaluate.py -   111: DiffBLEU: 0.00.
+2024-05-21 14:37:28,550 - INFO - run_evaluate.py -   112: DiffBLEU: 0.00.
+2024-05-21 14:37:28,733 - INFO - run_evaluate.py -   113: DiffBLEU: 0.08.
+2024-05-21 14:37:28,900 - INFO - run_evaluate.py -   114: DiffBLEU: 0.00.
+2024-05-21 14:37:29,068 - INFO - run_evaluate.py -   115: DiffBLEU: 0.00.
+2024-05-21 14:37:29,234 - INFO - run_evaluate.py -   116: DiffBLEU: 0.00.
+2024-05-21 14:37:29,402 - INFO - run_evaluate.py -   117: DiffBLEU: 0.00.
+2024-05-21 14:37:29,569 - INFO - run_evaluate.py -   118: DiffBLEU: 0.00.
+2024-05-21 14:37:29,735 - INFO - run_evaluate.py -   119: DiffBLEU: 0.00.
+2024-05-21 14:37:29,879 - INFO - run_evaluate.py -   120: DiffBLEU: 0.03.
+2024-05-21 14:37:30,044 - INFO - run_evaluate.py -   121: DiffBLEU: 0.00.
+2024-05-21 14:37:30,176 - INFO - run_evaluate.py -   122: DiffBLEU: 0.04.
+2024-05-21 14:37:30,320 - INFO - run_evaluate.py -   123: DiffBLEU: 1.00.
+2024-05-21 14:37:30,462 - INFO - run_evaluate.py -   124: DiffBLEU: 0.00.
+2024-05-21 14:37:30,610 - INFO - run_evaluate.py -   125: DiffBLEU: 0.00.
+2024-05-21 14:37:30,753 - INFO - run_evaluate.py -   126: DiffBLEU: 0.12.
+2024-05-21 14:37:30,891 - INFO - run_evaluate.py -   127: DiffBLEU: 0.02.
+2024-05-21 14:37:31,035 - INFO - run_evaluate.py -   128: DiffBLEU: 0.07.
+2024-05-21 14:37:31,156 - INFO - run_evaluate.py -   129: DiffBLEU: 0.04.
+2024-05-21 14:37:31,279 - INFO - run_evaluate.py -   130: DiffBLEU: 0.63.
+2024-05-21 14:37:31,424 - INFO - run_evaluate.py -   131: DiffBLEU: 0.19.
+2024-05-21 14:37:31,569 - INFO - run_evaluate.py -   132: DiffBLEU: 0.03.
+2024-05-21 14:37:31,696 - INFO - run_evaluate.py -   133: DiffBLEU: 0.02.
+2024-05-21 14:37:31,824 - INFO - run_evaluate.py -   134: DiffBLEU: 0.07.
+2024-05-21 14:37:31,966 - INFO - run_evaluate.py -   135: DiffBLEU: 0.14.
+2024-05-21 14:37:31,967 - INFO - run_evaluate.py -   Average DiffBLEU: 0.2634706740859076
+2024-05-21 14:37:31,967 - INFO - run_evaluate.py -   ==========[DiffBLEU]==========
+2024-05-21 14:37:31,967 - INFO - run_evaluate.py -   ==========[Syntax Pass]==========
+2024-05-21 14:37:31,968 - INFO - run_evaluate.py -   Syntax error: 1
+2024-05-21 14:37:31,969 - INFO - run_evaluate.py -   Syntax error: 2
+2024-05-21 14:37:31,969 - INFO - run_evaluate.py -   Syntax error: 3
+2024-05-21 14:37:31,970 - INFO - run_evaluate.py -   Syntax error: 5
+2024-05-21 14:37:31,970 - INFO - run_evaluate.py -   Syntax error: 6
+2024-05-21 14:37:31,971 - INFO - run_evaluate.py -   Syntax error: 11
+2024-05-21 14:37:31,973 - INFO - run_evaluate.py -   Syntax error: 16
+2024-05-21 14:37:31,974 - INFO - run_evaluate.py -   Syntax error: 17
+2024-05-21 14:37:31,975 - INFO - run_evaluate.py -   Syntax error: 18
+2024-05-21 14:37:31,975 - INFO - run_evaluate.py -   Syntax error: 20
+2024-05-21 14:37:31,977 - INFO - run_evaluate.py -   Syntax error: 27
+2024-05-21 14:37:31,978 - INFO - run_evaluate.py -   Syntax error: 31
+2024-05-21 14:37:31,978 - INFO - run_evaluate.py -   Syntax error: 32
+2024-05-21 14:37:31,979 - INFO - run_evaluate.py -   Syntax error: 34
+2024-05-21 14:37:31,979 - INFO - run_evaluate.py -   Syntax error: 35
+2024-05-21 14:37:31,980 - INFO - run_evaluate.py -   Syntax error: 36
+2024-05-21 14:37:31,981 - INFO - run_evaluate.py -   Syntax error: 40
+2024-05-21 14:37:31,982 - INFO - run_evaluate.py -   Syntax error: 43
+2024-05-21 14:37:31,982 - INFO - run_evaluate.py -   Syntax error: 44
+2024-05-21 14:37:31,983 - INFO - run_evaluate.py -   Syntax error: 46
+2024-05-21 14:37:31,983 - INFO - run_evaluate.py -   Syntax error: 47
+2024-05-21 14:37:31,983 - INFO - run_evaluate.py -   Syntax error: 48
+2024-05-21 14:37:31,985 - INFO - run_evaluate.py -   Syntax error: 52
+2024-05-21 14:37:31,986 - INFO - run_evaluate.py -   Syntax error: 56
+2024-05-21 14:37:31,986 - INFO - run_evaluate.py -   Syntax error: 57
+2024-05-21 14:37:31,987 - INFO - run_evaluate.py -   Syntax error: 58
+2024-05-21 14:37:31,987 - INFO - run_evaluate.py -   Syntax error: 59
+2024-05-21 14:37:31,988 - INFO - run_evaluate.py -   Syntax error: 60
+2024-05-21 14:37:31,988 - INFO - run_evaluate.py -   Syntax error: 61
+2024-05-21 14:37:31,988 - INFO - run_evaluate.py -   Syntax error: 62
+2024-05-21 14:37:31,989 - INFO - run_evaluate.py -   Syntax error: 63
+2024-05-21 14:37:31,990 - INFO - run_evaluate.py -   Syntax error: 69
+2024-05-21 14:37:31,992 - INFO - run_evaluate.py -   Syntax error: 73
+2024-05-21 14:37:31,992 - INFO - run_evaluate.py -   Syntax error: 74
+2024-05-21 14:37:31,993 - INFO - run_evaluate.py -   Syntax error: 75
+2024-05-21 14:37:31,993 - INFO - run_evaluate.py -   Syntax error: 76
+2024-05-21 14:37:31,994 - INFO - run_evaluate.py -   Syntax error: 77
+2024-05-21 14:37:31,994 - INFO - run_evaluate.py -   Syntax error: 78
+2024-05-21 14:37:31,994 - INFO - run_evaluate.py -   Syntax error: 79
+2024-05-21 14:37:31,995 - INFO - run_evaluate.py -   Syntax error: 80
+2024-05-21 14:37:31,995 - INFO - run_evaluate.py -   Syntax error: 81
+2024-05-21 14:37:31,996 - INFO - run_evaluate.py -   Syntax error: 82
+2024-05-21 14:37:31,996 - INFO - run_evaluate.py -   Syntax error: 83
+2024-05-21 14:37:31,997 - INFO - run_evaluate.py -   Syntax error: 85
+2024-05-21 14:37:31,998 - INFO - run_evaluate.py -   Syntax error: 91
+2024-05-21 14:37:31,998 - INFO - run_evaluate.py -   Syntax error: 92
+2024-05-21 14:37:31,999 - INFO - run_evaluate.py -   Syntax error: 93
+2024-05-21 14:37:32,000 - INFO - run_evaluate.py -   Syntax error: 99
+2024-05-21 14:37:32,001 - INFO - run_evaluate.py -   Syntax error: 100
+2024-05-21 14:37:32,001 - INFO - run_evaluate.py -   Syntax error: 101
+2024-05-21 14:37:32,002 - INFO - run_evaluate.py -   Syntax error: 102
+2024-05-21 14:37:32,003 - INFO - run_evaluate.py -   Syntax error: 104
+2024-05-21 14:37:32,005 - INFO - run_evaluate.py -   Syntax error: 105
+2024-05-21 14:37:32,007 - INFO - run_evaluate.py -   Syntax error: 106
+2024-05-21 14:37:32,008 - INFO - run_evaluate.py -   Syntax error: 110
+2024-05-21 14:37:32,009 - INFO - run_evaluate.py -   Syntax error: 113
+2024-05-21 14:37:32,010 - INFO - run_evaluate.py -   Syntax error: 119
+2024-05-21 14:37:32,010 - INFO - run_evaluate.py -   Syntax error: 120
+2024-05-21 14:37:32,011 - INFO - run_evaluate.py -   Syntax error: 121
+2024-05-21 14:37:32,011 - INFO - run_evaluate.py -   Syntax error: 122
+2024-05-21 14:37:32,012 - INFO - run_evaluate.py -   Syntax error: 124
+2024-05-21 14:37:32,012 - INFO - run_evaluate.py -   Syntax error: 125
+2024-05-21 14:37:32,013 - INFO - run_evaluate.py -   Syntax error: 126
+2024-05-21 14:37:32,013 - INFO - run_evaluate.py -   Syntax error: 127
+2024-05-21 14:37:32,013 - INFO - run_evaluate.py -   Syntax error: 128
+2024-05-21 14:37:32,014 - INFO - run_evaluate.py -   Syntax error: 129
+2024-05-21 14:37:32,014 - INFO - run_evaluate.py -   Syntax error: 131
+2024-05-21 14:37:32,015 - INFO - run_evaluate.py -   Syntax error: 132
+2024-05-21 14:37:32,015 - INFO - run_evaluate.py -   Syntax error: 133
+2024-05-21 14:37:32,016 - INFO - run_evaluate.py -   Syntax error: 134
+2024-05-21 14:37:32,016 - INFO - run_evaluate.py -   Syntax error: 135
+2024-05-21 14:37:32,016 - INFO - run_evaluate.py -   Average Pass Rate of Syntax: 65 / 136 = 0.47794117647058826
+2024-05-21 14:37:32,016 - INFO - run_evaluate.py -   ==========[Syntax Pass]==========

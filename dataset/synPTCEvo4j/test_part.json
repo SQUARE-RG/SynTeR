@@ -1,0 +1,28 @@
+[
+    {
+        "repo_name": "Alluxio/alluxio",
+        "commit_id": "8cc5a292f4c6e38ed0066ce5bd700cc946dc3803",
+        "commit_url": "https://github.com/Alluxio/alluxio/commit/8cc5a292f4c6e38ed0066ce5bd700cc946dc3803",
+        "focal_db": {
+            "id": "236947",
+            "rel_path": "core/client/fs/src/main/java/alluxio/client/file/BaseFileSystem.java",
+            "method_src": "@Override\n  public void mount(AlluxioURI alluxioPath, AlluxioURI ufsPath, MountOptions options)\n      throws IOException, AlluxioException {\n    checkUri(alluxioPath);\n    FileSystemMasterClient masterClient = mFileSystemContext.acquireMasterClient();\n    try {\n      // TODO(calvin): Make this fail on the master side\n      masterClient.mount(alluxioPath, ufsPath, options);\n      LOG.info(\"Mount \" + ufsPath.toString() + \" to \" + alluxioPath.getPath());\n    } catch (UnavailableException e) {\n      throw e;\n    } catch (AlluxioStatusException e) {\n      throw e.toAlluxioException();\n    } finally {\n      mFileSystemContext.releaseMasterClient(masterClient);\n    }\n  }",
+            "method_tgt": "@Override\n  public void mount(AlluxioURI alluxioPath, AlluxioURI ufsPath, MountPOptions options)\n      throws IOException, AlluxioException {\n    checkUri(alluxioPath);\n    FileSystemMasterClient masterClient = mFileSystemContext.acquireMasterClient();\n    try {\n      // TODO(calvin): Make this fail on the master side\n      masterClient.mount(alluxioPath, ufsPath, options);\n      LOG.info(\"Mount \" + ufsPath.toString() + \" to \" + alluxioPath.getPath());\n    } catch (UnavailableException e) {\n      throw e;\n    } catch (AlluxioStatusException e) {\n      throw e.toAlluxioException();\n    } finally {\n      mFileSystemContext.releaseMasterClient(masterClient);\n    }\n  }"
+        },
+        "test_db": {
+            "id": "236990",
+            "rel_path": "core/client/fs/src/test/java/alluxio/client/file/BaseFileSystemTest.java",
+            "method_src": "@Test\n  public void mount() throws Exception {\n    AlluxioURI alluxioPath = new AlluxioURI(\"/t\");\n    AlluxioURI ufsPath = new AlluxioURI(\"/u\");\n    MountOptions mountOptions = MountOptions.defaults();\n    doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n    mFileSystem.mount(alluxioPath, ufsPath, mountOptions);\n    verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n\n    verifyFilesystemContextAcquiredAndReleased();\n  }",
+            "method_tgt": "@Test\n  public void mount() throws Exception {\n    AlluxioURI alluxioPath = new AlluxioURI(\"/t\");\n    AlluxioURI ufsPath = new AlluxioURI(\"/u\");\n    MountPOptions mountOptions = MountPOptions.getDefaultInstance();\n    doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n    mFileSystem.mount(alluxioPath, ufsPath, mountOptions);\n    verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n\n    verifyFilesystemContextAcquiredAndReleased();\n  }"
+        },
+        "syn_diff": {
+            "overall": 1,
+            "modifiers": 0,
+            "type_params": 0,
+            "type": 0,
+            "name": 0,
+            "param_types": 1,
+            "throw_types": 0
+        }
+    }
+]

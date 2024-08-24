@@ -1,0 +1,129 @@
+2024-08-24 20:59:17,160 - INFO - run_update_ctx.py -   ***********************************
+2024-08-24 20:59:17,160 - INFO - run_update_ctx.py -   ***********************************
+2024-08-24 20:59:17,160 - INFO - run_update_ctx.py -   Start processing 1 items in dataset/synPTCEvo4j/test_part.json (write_to_file:True, clean_tests:True)
+2024-08-24 20:59:17,160 - INFO - run_update_ctx.py -   ==> Processing item id: 0
+2024-08-24 20:59:17,261 - INFO - gitter.py -   -> Repo head commit at: 8cc5a2.
+2024-08-24 20:59:17,272 - INFO - main_retriever.py -   Initializing LSP for /home/liujun/Projects/SynPTCEvo4J/repos/Alluxio/alluxio
+2024-08-24 20:59:47,687 - INFO - main_retriever.py -   LSP loaded for /home/liujun/Projects/SynPTCEvo4J/repos/Alluxio/alluxio
+2024-08-24 20:59:53,693 - INFO - main_retriever.py -   $ [Local Extractor]Extracted focal diff analysis: The third parameter "options" of the method "mount" changes from `MountOptions` to `MountPOptions`.
+2024-08-24 20:59:53,693 - INFO - main_retriever.py -   $ [Local Extractor]Extracted obsolete stmts:
+MountOptions mountOptions = MountOptions.defaults();
+doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);
+mFileSystem.mount(alluxioPath, ufsPath, mountOptions);
+verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);
+2024-08-24 20:59:53,693 - INFO - main_retriever.py -   [Enter Usages Retriever]
+2024-08-24 20:59:53,693 - INFO - main_retriever.py -   +++ Starting Usages DiffCtx Retriever
+2024-08-24 20:59:53,693 - INFO - main_retriever.py -   + Running Usages DiffCtx Collector
+2024-08-24 21:00:18,194 - INFO - global_collector.py -   + Found 10 usages for focal_tgt: mount
+2024-08-24 21:00:18,511 - INFO - main_retriever.py -   + Found 4 diff texts for usages.
+2024-08-24 21:00:18,511 - INFO - main_retriever.py -   + Running Focal DiffCtx Reranker
+2024-08-24 21:00:20,202 - INFO - main_retriever.py -   + Retrieved 3 diff texts for usages.
+2024-08-24 21:00:20,202 - INFO - main_retriever.py -   +++ Exit Usages DiffCtx Collector
+2024-08-24 21:00:20,202 - INFO - main_retriever.py -   [Exit Usages Retriever]
+2024-08-24 21:00:20,202 - INFO - main_retriever.py -   [Enter Class Retriever]
+2024-08-24 21:00:20,207 - INFO - main_retriever.py -   ### Starting Param ClassCtx Retriever
+2024-08-24 21:00:20,207 - INFO - main_retriever.py -   # Running ClassCtx Collector for Param types
+2024-08-24 21:00:20,265 - INFO - global_collector.py -   # Collecting global context for class "MountPOptions"
+2024-08-24 21:00:20,313 - INFO - global_collector.py -   # Found 83 texts and 14 constructors for class MountPOptions
+2024-08-24 21:00:20,419 - INFO - global_collector.py -   # Found 13 texts in class MountPOptionsOrBuilder
+2024-08-24 21:00:20,420 - INFO - global_collector.py -   # Collected 83 and 14 constructors texts in total for class MountPOptions
+2024-08-24 21:00:20,421 - INFO - main_retriever.py -   # [Local Extractor]Extracted constructions for params: {'options = MountOptions.defaults()'}
+2024-08-24 21:00:20,421 - INFO - main_retriever.py -   # [Local Extractor]Extracted accesses for params: {'x.setoptions()'}
+2024-08-24 21:00:20,421 - INFO - main_retriever.py -   # Running ClassCtx Reranker for param type: "MountPOptions"
+2024-08-24 21:00:38,573 - INFO - main_retriever.py -   # Retrieved 6 texts for param type: "MountPOptions"
+2024-08-24 21:00:38,574 - INFO - main_retriever.py -   ### Exit Param ClassCtx Retriever
+2024-08-24 21:00:38,574 - INFO - main_retriever.py -   [Exit Class Retriever]
+2024-08-24 21:00:38,574 - INFO - main_retriever.py -   [Enter General Retriever]
+2024-08-24 21:00:38,574 - INFO - main_retriever.py -   $$$ Starting Focal DiffCtx Retriever
+2024-08-24 21:00:38,574 - INFO - main_retriever.py -   $ Running Focal DiffCtx Collector
+2024-08-24 21:00:38,662 - INFO - global_collector.py -   $ Found 19 focal diff texts in core/client/fs/src/main/java/alluxio/client/file/BaseFileSystem.java
+2024-08-24 21:00:38,824 - INFO - global_collector.py -   $ Found 14 diff texts in core/client/fs/src/main/java/alluxio/client/file/FileSystem.java
+2024-08-24 21:00:38,829 - INFO - main_retriever.py -   $ Running Focal DiffCtx Reranker
+2024-08-24 21:00:45,541 - INFO - main_retriever.py -   $ Retrieved 3 diff texts for focal method.
+2024-08-24 21:00:45,542 - INFO - main_retriever.py -   $$$ Exit Focal DiffCtx Retriever
+2024-08-24 21:00:45,542 - INFO - main_retriever.py -   $$$ Starting Test DiffCtx Retriever
+2024-08-24 21:00:45,542 - INFO - main_retriever.py -   $ Running Test DiffCtx Collector
+2024-08-24 21:00:45,606 - INFO - global_collector.py -   $ Found 0 test diff texts in core/client/fs/src/test/java/alluxio/client/file/BaseFileSystemTest.java
+2024-08-24 21:00:45,618 - INFO - main_retriever.py -   $ Running Test DiffCtx Reranker
+2024-08-24 21:00:45,618 - INFO - main_retriever.py -   $ Retrieved 0 diff texts for test method.
+2024-08-24 21:00:45,618 - INFO - main_retriever.py -   $$$ Exit Test DiffCtx Retriever
+2024-08-24 21:00:45,618 - INFO - main_retriever.py -   [Exit General Retriever]
+2024-08-24 21:00:48,314 - INFO - run_update_ctx.py -   Retrieved Context: 
+- Usages diff texts of the focal method (examples of changes to use the updated focal method)
+```java
+-    mount(alluxioPath, ufsPath, MountOptions.defaults());
+-  }
+-  @Override
+-  public void mount(AlluxioURI alluxioPath, AlluxioURI ufsPath, MountOptions options) throws IOException, AlluxioException {
++    mount(alluxioPath, ufsPath, MountPOptions.getDefaultInstance());
+
+-  public Response mount(@PathParam("path") final String path, @QueryParam("src") final String src, final MountOptions options) {
++  public Response mount(@PathParam("path") final String path, @QueryParam("src") final String src, final MountPOptions options) {
+-          mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), MountOptions.defaults());
++          mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), MountPOptions.getDefaultInstance());
+
+-  public Response mount(@PathParam("path") final String path, @QueryParam("src") final String src, final MountOptions options) {
++  public Response mount(@PathParam("path") final String path, @QueryParam("src") final String src, final MountPOptions options) {
+-          mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), MountOptions.defaults());
++          mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), MountPOptions.getDefaultInstance());
+           mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), options);
+```
+
+- Defined in class MountPOptions (optional references)
+```java
+public static alluxio.grpc.MountPOptions getDefaultInstance();
+
+public alluxio.grpc.MountPOptions getDefaultInstanceForType();
+
+public static alluxio.grpc.MountPOptions parseFrom( java.nio.ByteBuffer data, com.google.protobuf.ExtensionRegistryLite extensionRegistry) throws com.google.protobuf.InvalidProtocolBufferException;
+
+public boolean hasCommonOptions();
+```
+
+- Defined in class MountPOptions.PropertiesDefaultEntryHolder.Builder (optional references)
+```java
+public Builder setCommonOptions(alluxio.grpc.FileSystemMasterCommonPOptions value);
+
+public Builder setCommonOptions( alluxio.grpc.FileSystemMasterCommonPOptions.Builder builderForValue);
+```
+
+- Diff texts in the scope of the focal method (optional references)
+```java
+-    delete(path, DeleteOptions.defaults());
+-  }
+-  @Override
+-  public void delete(AlluxioURI path, DeleteOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException {
++    delete(path, DeletePOptions.getDefaultInstance());
++  }
++  @Override
++  public void delete(AlluxioURI path, DeletePOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException {
+
+-    free(path, FreeOptions.defaults());
+-  }
+-  @Override
+-  public void free(AlluxioURI path, FreeOptions options) throws FileDoesNotExistException, IOException, AlluxioException {
++    free(path, FreePOptions.getDefaultInstance());
++  }
++  @Override
++  public void free(AlluxioURI path, FreePOptions options) throws FileDoesNotExistException, IOException, AlluxioException {
+
+-  void delete(AlluxioURI path, DeleteOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException;
++  void delete(AlluxioURI path, DeletePOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException;
+```
+
+
+2024-08-24 21:00:55,807 - INFO - run_update_ctx.py -   Output updated test code:
+@Test
+public void mount() throws Exception {
+  AlluxioURI alluxioPath = new AlluxioURI("/t");
+  AlluxioURI ufsPath = new AlluxioURI("/u");
+  MountPOptions mountOptions = MountPOptions.getDefaultInstance();
+  doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);
+  mFileSystem.mount(alluxioPath, ufsPath, mountOptions);
+  verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);
+  verifyFilesystemContextAcquiredAndReleased();
+}
+2024-08-24 21:00:55,807 - INFO - run_update_ctx.py -   Complete for item: 0; Error list: []
+2024-08-24 21:00:55,807 - INFO - run_update_ctx.py -   =========================
+2024-08-24 21:01:00,807 - INFO - run_update_ctx.py -   Finish writing items to outputs/SynTeR/test_part_all_ctx_wot.json
+2024-08-24 21:01:00,812 - INFO - run_update_ctx.py -   All 1 results are written to outputs/SynTeR/test_part_all_ctx_wot.json.

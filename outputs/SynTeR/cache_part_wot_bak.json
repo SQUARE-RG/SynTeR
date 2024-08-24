@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "Anal": "The third parameter \"options\" of the method \"mount\" changes from `MountOptions` to `MountPOptions`.",
+        "Stmts": "MountOptions mountOptions = MountOptions.default();\nmFileSystem.mount(alluxioPath, ufsPath, mountOptions);",
+        "UsagesCtx": {
+            "info": "Usages diff texts of the focal method (examples of changes to use the updated focal method)",
+            "contexts": [
+                "-    mount(alluxioPath, ufsPath, MountOptions.defaults());\n-  }\n-  @Override\n-  public void mount(AlluxioURI alluxioPath, AlluxioURI ufsPath, MountOptions options) throws IOException, AlluxioException {\n+    mount(alluxioPath, ufsPath, MountPOptions.getDefaultInstance());",
+                "-  public Response mount(@PathParam(\"path\") final String path, @QueryParam(\"src\") final String src, final MountOptions options) {\n+  public Response mount(@PathParam(\"path\") final String path, @QueryParam(\"src\") final String src, final MountPOptions options) {\n-          mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), MountOptions.defaults());\n+          mFileSystem.mount(new AlluxioURI(path), new AlluxioURI(src), MountPOptions.getDefaultInstance());",
+                "+      optionsBuilder.setShared(true);\n-      options.setProperties(Maps.fromProperties(properties));\n+      optionsBuilder.putAllProperties(Maps.fromProperties(properties));\n-    mFileSystem.mount(alluxioPath, ufsPath, options);\n+    mFileSystem.mount(alluxioPath, ufsPath, optionsBuilder.build());"
+            ]
+        },
+        "ClassCtx": [
+            {
+                "info": "Defined in class MountPOptions (optional references)",
+                "contexts": [
+                    "public static alluxio.grpc.MountPOptions getDefaultInstance();",
+                    "public alluxio.grpc.MountPOptions getDefaultInstanceForType();",
+                    "public static alluxio.grpc.MountPOptions parseFrom( java.nio.ByteBuffer data, com.google.protobuf.ExtensionRegistryLite extensionRegistry) throws com.google.protobuf.InvalidProtocolBufferException;",
+                    "public boolean hasCommonOptions();"
+                ]
+            },
+            {
+                "info": "Defined in class MountPOptions.PropertiesDefaultEntryHolder.Builder (optional references)",
+                "contexts": [
+                    "public Builder setCommonOptions(alluxio.grpc.FileSystemMasterCommonPOptions value);",
+                    "public Builder setCommonOptions( alluxio.grpc.FileSystemMasterCommonPOptions.Builder builderForValue);"
+                ]
+            }
+        ],
+        "EnvCtx": [
+            {
+                "info": "Diff texts in the scope of the focal method (optional references)",
+                "contexts": [
+                    "-    delete(path, DeleteOptions.defaults());\n-  }\n-  @Override\n-  public void delete(AlluxioURI path, DeleteOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException {\n+    delete(path, DeletePOptions.getDefaultInstance());\n+  }\n+  @Override\n+  public void delete(AlluxioURI path, DeletePOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException {",
+                    "-    free(path, FreeOptions.defaults());\n-  }\n-  @Override\n-  public void free(AlluxioURI path, FreeOptions options) throws FileDoesNotExistException, IOException, AlluxioException {\n+    free(path, FreePOptions.getDefaultInstance());\n+  }\n+  @Override\n+  public void free(AlluxioURI path, FreePOptions options) throws FileDoesNotExistException, IOException, AlluxioException {",
+                    "-  void delete(AlluxioURI path, DeleteOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException;\n+  void delete(AlluxioURI path, DeletePOptions options)throws DirectoryNotEmptyException, FileDoesNotExistException, IOException, AlluxioException;"
+                ]
+            },
+            {
+                "info": "Diff texts in the scope of the test method (new identifiers defined can be directly used in the new test)",
+                "contexts": []
+            }
+        ]
+    }
+]

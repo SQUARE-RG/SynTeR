@@ -1,0 +1,21 @@
+{
+    "Approach": "CEPROT(outputs/CEPROT/test_ceprot.json)",
+    "Accuracy": 0.04411764705882353,
+    "Codebleu": 0.7342647291966964,
+    "DiffBLEU": 0.2634706740859076,
+    "syntax_pass": 0.47794117647058826
+}
+{
+    "Approach": "NaiveLLM(outputs/NaiveLLM/test_woctx.json)",
+    "Accuracy": 0.2846715328467153,
+    "Codebleu": 0.8188951371459227,
+    "DiffBLEU": 0.44015775449174804,
+    "syntax_pass": 1.0
+}
+{
+    "Approach": "SynTeR(outputs/SynTeR/test_all_ctx_wot.json)",
+    "Accuracy": 0.3235294117647059,
+    "Codebleu": 0.8333773402563864,
+    "DiffBLEU": 0.46657856019069327,
+    "syntax_pass": 1.0
+}

@@ -1,0 +1,19 @@
+2024-08-24 21:01:15,285 - INFO - run_update_woctx.py -   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2024-08-24 21:01:15,285 - INFO - run_update_woctx.py -   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2024-08-24 21:01:15,285 - INFO - run_update_woctx.py -   Start processing 1 items in dataset/synPTCEvo4j/test_part.json (write_to_file:True)
+2024-08-24 21:01:15,285 - INFO - run_update_woctx.py -   ==> Processing item: 0
+2024-08-24 21:01:23,189 - INFO - run_update_woctx.py -   Output updated test code:
+@Test
+public void mount() throws Exception {
+  AlluxioURI alluxioPath = new AlluxioURI("/t");
+  AlluxioURI ufsPath = new AlluxioURI("/u");
+  MountPOptions mountOptions = MountPOptions.defaults();
+  doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);
+  mFileSystem.mount(alluxioPath, ufsPath, mountOptions);
+  verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);
+  verifyFilesystemContextAcquiredAndReleased();
+}
+2024-08-24 21:01:23,189 - INFO - run_update_woctx.py -   Complete for item: 0; Error list: []
+2024-08-24 21:01:23,189 - INFO - run_update_woctx.py -   =========================
+2024-08-24 21:01:28,190 - INFO - run_update_woctx.py -   Finish writing items to outputs/NaiveLLM/test_part_woctx.json
+2024-08-24 21:01:28,190 - INFO - run_update_woctx.py -   All 1 results are written to outputs/NaiveLLM/test_part_woctx.json.

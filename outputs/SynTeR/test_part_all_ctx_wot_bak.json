@@ -1,0 +1,8 @@
+[
+    {
+        "id": 0,
+        "original": "@Test\npublic void mount() throws Exception {\n  AlluxioURI alluxioPath = new AlluxioURI(\"/t\");\n  AlluxioURI ufsPath = new AlluxioURI(\"/u\");\n  MountOptions mountOptions = MountOptions.defaults();\n  doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n  mFileSystem.mount(alluxioPath, ufsPath, mountOptions);\n  verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n  verifyFilesystemContextAcquiredAndReleased();\n}",
+        "prediction": "@Test\npublic void mount() throws Exception {\n  AlluxioURI alluxioPath = new AlluxioURI(\"/t\");\n  AlluxioURI ufsPath = new AlluxioURI(\"/u\");\n  MountPOptions mountOptions = MountPOptions.getDefaultInstance();\n  doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n  mFileSystem.mount(alluxioPath, ufsPath, mountOptions);\n  verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n  verifyFilesystemContextAcquiredAndReleased();\n}",
+        "reference": "@Test\npublic void mount() throws Exception {\n  AlluxioURI alluxioPath = new AlluxioURI(\"/t\");\n  AlluxioURI ufsPath = new AlluxioURI(\"/u\");\n  MountPOptions mountOptions = MountPOptions.getDefaultInstance();\n  doNothing().when(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n  mFileSystem.mount(alluxioPath, ufsPath, mountOptions);\n  verify(mFileSystemMasterClient).mount(alluxioPath, ufsPath, mountOptions);\n  verifyFilesystemContextAcquiredAndReleased();\n}"
+    }
+]
