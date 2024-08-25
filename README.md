@@ -31,7 +31,7 @@ The work introduces SynTeR for automated test repair using Large Language Models
 ### 1. Download & Load Docker Image
 - Download and Load the docker image with prepared environments.
   ```bash
-  # assume that you have downloaded the image [synter-ubuntu.tar] form DOI: 10.5281/zenodo.13369956
+  # assume that you have downloaded the image [synter-ubuntu.tar] form DOI: 10.5281/zenodo.13370573
   docker load -i <local-path-to>/synter-ubuntu.tar
   docker run -it --name synter-demo synter-ubuntu /bin/bash
   ```
