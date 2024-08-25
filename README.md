@@ -33,7 +33,7 @@ The work introduces SynTeR for automated test repair using Large Language Models
   ```bash
   # assume that you have downloaded the image [synter-ubuntu.tar] form DOI: 10.5281/zenodo.13369956
   docker load -i <local-path-to>/synter-ubuntu.tar
-  docker run -it -d --name synter-demo synter-ubuntu /bin/bash
+  docker run -it --name synter-demo synter-ubuntu /bin/bash
   ```
 
 - Notes: all the repositories will be saved at `/root/SynPTCEvo4J/repos` as already configured in `utils/configs.py`.
@@ -41,7 +41,7 @@ The work introduces SynTeR for automated test repair using Large Language Models
 ### 2. Run SynTeR in the Container
 - **Move to the workspace**.
   ```bash
-  cd /root/SynTeR
+  cd /root/SynTeR && conda activate synter
   ```
 - **Add LLM configuarations**. The default LLM used is GPT4 from OPENAI.
   - utils/configs: your LLM API keys.
